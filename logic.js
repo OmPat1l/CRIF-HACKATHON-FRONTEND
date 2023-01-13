@@ -101,7 +101,10 @@ var object = {
 // // Calling the function
 // getUser();
 // console.log("hi");
-// fetch("http://127.0.0.1:8000/articles?name=twitter").then(res => console.log(res)).catch(err => console.log(err));
+// fetch("http://127.0.0.1:8000/articles?name=twitter", { mode: 'no-cors' }).then(res => res.json()).then(data => {
+//     console.log(data)
+//     console.log("hi")
+// }).catch(err => { console.log(err) });
 document.querySelector('.c-services').innerHTML = '';
 
 for (let i = 0; i < object.data.length; i++) {
