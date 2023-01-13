@@ -100,8 +100,8 @@ var object = {
 
 // // Calling the function
 // getUser();
-
-
+// console.log("hi");
+// fetch("http://127.0.0.1:8000/articles?name=twitter").then(res => console.log(res)).catch(err => console.log(err));
 document.querySelector('.c-services').innerHTML = '';
 
 for (let i = 0; i < object.data.length; i++) {
