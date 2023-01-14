@@ -2,13 +2,17 @@
 
 body {
   margin: 0;
+  font-family: "Noto Sans Mono", monospace !important;
 }
 
 .op12 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 20%;
+}
+
+.main_heading {
+  font-size: 6.5rem;
 }
 
 :root {
@@ -20,9 +24,11 @@ body {
   --color-brand-accent-h: 16;
   --color-brand-accent-s: 96%;
   --color-brand-accent-l: 61%;
-  --color-brand-accent-bg: hsl(calc(var(--color-brand-accent-h) + 17),
-      100%,
-      96%);
+  --color-brand-accent-bg: hsl(
+    calc(var(--color-brand-accent-h) + 17),
+    100%,
+    96%
+  );
   --ratio: 1.4;
   --s-6: calc(var(--s-5) / var(--ratio));
   --s-5: calc(var(--s-4) / var(--ratio));
@@ -68,7 +74,6 @@ body {
 
 body {
   font-size: 1.4rem;
-  font-family: "Outfit", sans-serif;
   font-weight: 300;
 
   min-height: 100vh;
