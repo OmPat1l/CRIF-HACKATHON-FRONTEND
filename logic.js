@@ -1,68 +1,68 @@
 // // async functi
-// var result = {
+var result = {
 
-//     detail: [
-//         {
-//             title: "lorem1",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "twittwer",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "google",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "facebook",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         },
-//         {
-//             title: "facebook",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "facebook",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "facebook",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "facebook",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "facebook",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "facebook",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "facebook",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "facebook",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "facebook",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         }, {
-//             title: "facebook",
-//             score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
-//             link: "https://www.youtube.com/"
-//         },
-//     ]
+    detail: [
+        {
+            title: "lorem1",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "twittwer",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "google",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "facebook",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        },
+        {
+            title: "facebook",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "facebook",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "facebook",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "facebook",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "facebook",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "facebook",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "facebook",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "facebook",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "facebook",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        }, {
+            title: "facebook",
+            score: "orem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, sed eius consequuntur beatae asperiores deleniti commodi rem aliquam. Nam, beatae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos natus voluptates ipsa eos sapiente officia repellendus ducimus. Aliquam veniam deleniti doloribus nobis aliquid rem suscipit repellat. Dolorum rem aspernatur similique!",
+            link: "https://www.youtube.com/"
+        },
+    ]
 
-// }
+}
 
 // fetch("http://127.0.0.1:8000/docs#/default", {
 //     headers: {

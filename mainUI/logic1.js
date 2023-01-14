@@ -1,4 +1,4 @@
-var data1 = [{ company: 'Tesla', risk: true, points: 20, userfeed: 2, sentimental: -0.6, riske: 25, ratio: '30%', stock: -1, }, { company: 'Tata', risk: false, points: 26, userfeed: 2, sentimental: -0.6, riske: 25, ratio: '30%', stock: -1, }, { company: 'Amazon', risk: true, points: 22, userfeed: 2, sentimental: -0.6, riske: 25, ratio: '30%', stock: -1, },]
+var data1 = [{ company: 'Tesla', risk: true, points: 20, userfeed: 2, sentimental: -0.6, riske: 25, ratio: '30%', stock: -1, source: "https://www.tesla.com/" }, { company: 'Tata', risk: false, points: 26, userfeed: 2, sentimental: -0.6, riske: 25, ratio: '30%', stock: -1, source: "https://www.tata.com/" }, { company: 'Amazon', risk: true, points: 22, userfeed: 2, sentimental: -0.6, riske: 25, ratio: '30%', stock: -1, source: "https://www.amazon.in/" },]
 
 
 document.querySelector('.innerwork').innerHTML = "";
@@ -24,7 +24,7 @@ for (let i = 0; i < data1.length; i++) {
                 </ul>
             </div>
             <div class="btn">
-                <a href="#">Order Now</a>
+                <a href="${data1[i].source}">${data1[i].company}</a>
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@ for (let i = 0; i < data1.length; i++) {
                 </ul>
             </div>
             <div class="btn">
-                <a href="#">Order Now</a>
+                <a href="${data1[i].source}">${data1[i].company}</a>
             </div>
         </div>
     </div>
