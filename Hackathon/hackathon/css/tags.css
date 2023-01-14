@@ -1,0 +1,19 @@
+.tagsner {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    z-index: 100;
+
+
+}
+
+.tagelement {
+    font-weight: bolder;
+    text-transform: uppercase;
+
+    padding: 1rem;
+    background-color: #f80;
+    border-radius: 15px;
+
+
+}
