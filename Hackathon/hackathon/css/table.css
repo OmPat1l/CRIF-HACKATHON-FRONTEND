@@ -30,7 +30,7 @@ body {
   margin-bottom: 30px;
 }
 
-.entry-title > h3 {
+.entry-title>h3 {
   background: #20bada;
   font-size: 20px;
   padding: 5px 0;
@@ -97,6 +97,7 @@ body {
   font-weight: 700;
   text-decoration: none;
 }
+
 .hot {
   position: absolute;
   top: -7px;
@@ -110,11 +111,12 @@ body {
   right: 10px;
   font-weight: 700;
 }
+
 .basic .entry-title {
   background: #75ddd9;
 }
 
-.basic .entry-title > h3 {
+.basic .entry-title>h3 {
   background: #44cbc6;
 }
 
@@ -126,7 +128,7 @@ body {
   background: #4484c1;
 }
 
-.standard .entry-title > h3 {
+.standard .entry-title>h3 {
   background: #3772aa;
 }
 
@@ -134,7 +136,7 @@ body {
   background: #3772aa;
 }
 
-.ultimite .entry-title > h3 {
+.ultimite .entry-title>h3 {
   background: #dd4b5e;
 }
 
