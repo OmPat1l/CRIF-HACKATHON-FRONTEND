@@ -25,7 +25,7 @@ function display_data(result) {
 
   for (let i = 0; i < global_result.detail.length; i++) {
     document.querySelector(".c-services").innerHTML += `
-      <a class="c-services__item" href="${result["detail"][i].link}">
+      <a target="_blank" class="c-services__item" href="${result["detail"][i].link}">
       <li ">
       <h3>${result["detail"][i]["title"]}</h3>
       <p>${result["detail"][i]["score"]}
