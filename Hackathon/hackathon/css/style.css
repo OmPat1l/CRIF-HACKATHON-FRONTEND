@@ -6,9 +6,11 @@ body {
 }
 
 .op12 {
+  margin: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .main_heading {
@@ -267,6 +269,14 @@ ul li:before {
   .c-section__title:after {
     width: calc(var(--s5) * 3.5);
   }
+  .search-box {
+    width: 65%;
+  }
+}
+@media (max-width: 700px) {
+  .main_heading {
+    font-size: 6rem;
+  }
 }
 
 @media (max-width: 650px) {
@@ -283,9 +293,13 @@ ul li:before {
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 630px) {
   .c-section__title span {
     font-size: 5rem;
+  }
+
+  .search-box {
+    width: 70%;
   }
 }
 
